@@ -1,0 +1,5 @@
+# flyctl launch added from .gitignore
+# IDE
+**/.idea
+**/*.iml
+fly.toml
