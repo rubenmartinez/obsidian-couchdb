@@ -1,4 +1,4 @@
-# fly.toml file generated for obsidian-couchbase on 2023-03-26T08:44:47+02:00
+# fly.toml file generated for obsidian-couchbase on 2023-03-26T08:51:24+02:00
 
 app = "obsidian-couchbase"
 kill_signal = "SIGINT"
@@ -9,6 +9,10 @@ processes = []
 
 [experimental]
   auto_rollback = true
+
+[mounts]
+  source="couchdbdata"
+  destination="/opt/couchbase/var"
 
 [[services]]
   http_checks = []
