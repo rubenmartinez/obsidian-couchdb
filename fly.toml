@@ -1,6 +1,6 @@
-# fly.toml file generated for broken-sun-3725 on 2023-03-18T15:36:47+01:00
+# fly.toml file generated for obsidian-couchbase on 2023-03-26T08:44:47+02:00
 
-app = "broken-sun-3725"
+app = "obsidian-couchbase"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
